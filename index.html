@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cover">
+      <div class="logo">
+        <img src="img/logo.png" class="odin" />
+        <h3>ODIN</h3>
+      </div>
+      <h5 class="link">
+        Photo by
+        <a class="alink" href="https://www.pexels.com/"
+          >Luis Dalvan on pexels</a
+        >
+      </h5>
+    </div>
+    <div class="container">
+      <header>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p>You know you want to.</p>
+      </header>
+      <form  id="my-form" class="main">
+        <p>Let's do this!</p>
+
+        <div class="input">
+
+          <div>
+            <label for="first-name">FIRST NAME</label><br>
+            <input type="text" name="first-name" id="first-name" required /></br>
+          </div>
+
+          <div>
+            <label for="last-name">LAST NAME</label><br>
+            <input type="text" name="last-name" id="last-name" required></br>
+          </div>
+
+          <div>
+            <label for="email">EMAIL</label><br>
+            <input type="email" name="email" id="email" required></br>
+          </div>
+
+          <div>
+            <label for="phone-number">PHONE NUMBER</label><br>
+          <input type="tel" name="phone-number" id="phone-number" minlength="10" maxlength=number required></br>
+          </div>
+
+          <div>
+            <label for="password">PASSWORD<br>
+              <input type="password" name="password" id="password" required></label>
+          </div>
+          
+          <div>
+            <label for="confirm-password">CONFIRM PASSWORD<br>
+              <input type="password" name="confirm-password" id="password" required></label>
+          </div>
+        </div>
+      </form>
+
+      <div class="footer">
+        <button type="submit" form="my-form">Create Account</button>
+        <p>Already have an account? <a href="#"> Log in</a></p>
+      </div>
+    </div>
+  </body>
+</html>
